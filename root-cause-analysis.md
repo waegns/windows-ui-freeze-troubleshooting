@@ -6,7 +6,7 @@ The issue was caused by Windows Explorer (explorer.exe) hanging due to a problem
 
 ## Technical Breakdown
 
-* A network path was created using an IP address (\192.168.x.x)
+* A network path was created using an IP address (`\\192.168.x.x`)
 * Explorer attempts to resolve and maintain access to this path
 * If the resource is slow/unreachable, Explorer can block UI threads
 
@@ -23,8 +23,7 @@ Explorer.exe UI thread blocked by unresolved or slow SMB network reference
 ## Fix Applied
 
 * Removed network shortcut
-* Cleared SMB sessions using:
-  net use * /delete
+* Cleared SMB sessions using `net use * /delete`
 * Restarted Explorer process
 
 ## Result

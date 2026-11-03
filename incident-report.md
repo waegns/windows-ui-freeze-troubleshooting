@@ -10,8 +10,7 @@ Mouse clicks intermittently stopped working. The system remained responsive but 
 
 ## Trigger
 
-Created a network share shortcut using IP address:
-\192.168.x.x
+Created a network share shortcut using IP address: `\\192.168.x.x`
 
 ## Symptoms
 
