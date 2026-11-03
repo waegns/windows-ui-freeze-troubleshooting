@@ -32,9 +32,9 @@ Explorer.exe became unresponsive due to blocking network calls to an unstable SM
 
 ## Files
 
-* incident-report.md → timeline + symptoms
-* root-cause-analysis.md → technical breakdown
-* commands.md → tools used
+* [incident-report.md](incident-report.md): timeline and symptoms
+* [root-cause-analysis.md](root-cause-analysis.md): technical breakdown
+* [commands.md](commands.md): commands used
 
 ## Outcome
 
