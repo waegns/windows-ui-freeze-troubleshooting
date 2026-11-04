@@ -34,4 +34,4 @@ System returned to stable operation
 
 * Avoid persistent IP-based network shortcuts
 * Use hostnames instead of raw IPs
-* Always create a restore point before system changes
+* Confirm a network share is reachable before mapping it

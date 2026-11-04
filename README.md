@@ -24,11 +24,10 @@ Explorer.exe became unresponsive due to blocking network calls to an unstable SM
 
 ## Skills Demonstrated
 
-* OS troubleshooting (Windows internals)
+* Windows 11 troubleshooting
 * Network share debugging (SMB behavior)
 * Process isolation (Explorer.exe)
-* Log-based reasoning
-* Structured problem solving
+* Structured problem solving (isolate the change, test, fix, verify)
 
 ## Files
 
@@ -40,8 +39,3 @@ Explorer.exe became unresponsive due to blocking network calls to an unstable SM
 
 System stabilized and issue resolved.
 
----
-
-## Why This Matters
-
-This lab demonstrates practical troubleshooting, not just theory—mirroring real-world IT and SOC workflows.
